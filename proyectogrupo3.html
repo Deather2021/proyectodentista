@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental - Dra Rebeca Zúñiga</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        
+    </script>
+    
+</head>
+<body>
+    <div class="loader">
+        <div></div>
+    </div>
+
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(1000);
+            $(".Inicial").fadeIn(1000);
+        })
+    </script>
+
+    <div class="Inicial">
+
+
+
+    <!-- Encabezado-->
+
+    <header class="header fixed-top">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+
+
+                <nav class="nav">
+
+                    <a href="/proyectogrupo3.html"><button class="btn boton">Inicio</button></a>
+                    <a href="/SNosotros.html"><button class="btn boton">Sobre Nosotros</button></a>
+                    <a href="/Servicios.html"><button class="btn boton">Precios y Tratamientos</button></a>
+
+                    <div class="btn1">
+                        <a href="/formulario.html"><button><span>Sacar Cita</span></button></a>
+                    </div>
+    
+                    <div class="btn1 btn2">
+                        <a href="/login.html"><button><span>Inicio de Sesión</span></button></a>
+                    </div>
+                    
+                </nav>
+
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+        </div>
+    </header><br><br><br><br>
+
+    <!-- Inicio-->
+
+
+    <section class="inicio" id="Inicio">
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="content h-75 text-center ">
+                    <h3>Crear una sonrisa es multiplicar la felicidad</h3>
+                    <p>No permitas que tu dentadura se eche a perder. Acude a tu odontólogo ahora que estás a tiempo.</p>
+                    <div class="btn1">
+                        <a href="http://localhost/proyectodentista/formulario.php"><button><span>Sacar Cita</span></button></a>
+                    </div> <br><br>
+                    <div class="btn1 btn2">
+                        <a href="http://localhost/proyectodentista/login.html"><button><span>Iniciar Sesión</span></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros-->
+
+    <section class="nosotros" id="Sobre Nosotros">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 image">
+                    <img src="images/SobreNosotros.png" class= "w-100 mb-5 mb-md-0" alt="">
+                </div>
+
+                <div class="col-md-6 content">
+                    <span>Sobre Nosotros</span>
+                    <h3>La correcta salud dental para tu familia</h3>
+                    <p>Nos preocupamos por la salud de nuestros clientes y por ofrecer Servicios
+                        de calidad. La Dra. Rebeca Zuñiga, con más de 12 años de experiencia y una
+                        excelente atención médica, se asegura de mantener esa sonrisa fuerte y sana.
+                        Recuerda: la odontología no es cara, ser negligente con tus dientes sí lo es.
+                        Se ofecen servicios tanto para clientes regulares como atención especial a empresas
+                        mediante Móvil Médica.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios-->
+
+    <section class="services" id="Servicios">
+        <h1 class="heading">Algunos de Nuestros Servicios</h1>
+
+        <div class="box-container container">
+            <div class="box">
+                <img src="images/icon-5.svg" alt="">
+                <h3>Revisiones y consultas</h3>
+                <p>Le realizamos diagnósticos, examenes, tratamiento y seguimiento a cualquier malestar o enfermedad dental</p>        
+            </div>
+
+            <div class="box">
+                <img src="images/icon-1.svg" alt="">
+                <h3>Prevención</h3>
+                <p>Realizamos limpiezas y tratamientos preventivos para mantener sus dientes protejidos y sanos</p>        
+            </div>
+                
+            <div class="box">
+                <img src="images/icon-3.svg" alt="">
+                <h3>Periodoncia</h3>
+                <p>Le salvamos cualquier diente mediante el removimiento de tejido muerto o infectado</p>        
+            </div>
+
+            <div class="box">
+                <img src="images/icon-4.svg" alt="">
+                <h3>Ortodoncia</h3>
+                <p>Ofrecemos servicios de ortodoncia tanto para enderezamiento de los dientes como para corrección de la mordida</p>        
+            </div>
+
+
+            <div class="box">
+                <img src="images/icon-6.svg" alt="">
+                <h3>Blanqueamiento</h3>
+                <p>Realizamos tratamiento dental estético para aclarar eliminando manchas amarillas y cafés</p>        
+            </div>
+
+            <div class="box">
+                <img src="images/icon-2.svg" alt="">
+                <h3>Endodoncia</h3>
+                <p>Realizamos procedimientos de preservación de piezas dentales dañadas, así para evitar su pérdida</p>        
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Procesos-->
+
+    <section class="procesos">
+        <h1 class="heading">Procesos</h1>
+
+        <div class="box-container container">
+
+            <div class="box">
+                <img src="images/process-1.png" alt="">
+                <h3>Implantes Dentales</h3>
+                <p>Restauramos uno o más dientes perdidos, sin importar la razón de perdida</p>
+            </div>
+
+            <div class="box">
+                <img src="images/process-2.png" alt="">
+                <h3>Ortodoncia</h3>
+                <p>Le corregimos la mala posición de sus dientes, así como los problemas de mordida </p>
+            </div>
+
+            <div class="box">
+                <img src="images/process-3.png" alt="">
+                <h3>Periodoncia</h3>
+                <p>Nos encargamos de prevenir y tratar toda patología que afecte los tejidos que rodean nuestros dientes </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reseñas-->
+
+    <section class="resena" id="resena">
+
+        <h1 class="heading">La opinión de nuestros clientes</h1>
+
+        <div class="box-container container">
+            <div class="box">
+                <p>Muy buena atención, muy buena mano y cumple con todos los protocolos</p>
+                <h3>Yazmin Sánchez</h3>
+                <span>Facebook</span>
+            </div>
+
+            <div class="box">
+                <p>Excelentes profesionales</p>
+                <h3>Laura Delgado</h3>
+                <span>Facebook</span>
+            </div>
+
+            <div class="box">
+                <p>La doctora es excelente y muy profesional, super recomendada. Con ella están en las mejores manos</p>
+                <h3>Marifer VHdz</h3>
+                <span>Facebook</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Fabián Vargas</h3>
+                <span>Google Reviews</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>José Mora</h3>
+                <span>Google Reviews</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Rebeca Sánchez</h3>
+                <span>Google Reviews</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Ana Brenes</h3>
+                <span>Google Reviews</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Graciela Calero</h3>
+                <span>Google Reviews</span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Rosario Navarro</h3>
+                <span>Google Reviews</span>
+            </div>
+        </div>
+    </section>
+
+     <!-- Ubicación-->
+
+     <section class="ubicacion" id="ubicacion">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 image mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15718.678203231359!2d-84.029335!3d9.9614271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9f39150276599952!2sCl%C3%ADnica%20Dra%20Rebeca%20Zu%C3%B1iga!5e0!3m2!1sen!2scr!4v1660634746918!5m2!1sen!2scr" class= "w-100 mb-5 mb-md-0 map" width="640" height="427" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-6 content text-center">
+                    <h3>¡Te esperamos!</h3>
+                    <span><b>Nuestro Horario</b></span>
+                    <p> 
+                        Lunes: <b>8:30 AM– 6:00 PM</b> <br>
+                        Martes: <b>8:30 AM– 6:00 PM</b> <br>
+                        Miércoles: <b>8:30 AM– 6:00 PM</b> <br>
+                        Jueves: <b>8:30 AM– 6:00 PM</b> <br>
+                        Viernes: <b>8:30 AM– 6:00 PM</b> <br>
+                        Sábado: <b>8:30 AM– 6:00 PM</b> <br>
+                        Domingo: <b>Cerrado
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página-->
+
+    <section class="pie">
+        <div class="box-container container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>Número de Contacto</h3>
+                <p><a style="color: #666;" href="tel:+506 8855 3465">+506 8855 3465</a></p>
+                <p><a style="color: #666;" href="tel:2245 7713">2245 7713</a></p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Dirección</h3>
+                <p>XX6C+H7F, C. Mozotal, San José, Ipis</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>Horario</h3>
+                <p>Lunes a Sábado de 8:30 AM a 6:00 PM</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Correo Electrónico</h3>
+                <p>clinicadoctorarebeca@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="credit"> Creado por <span>Grupo #3 - ULACIT</span></div>
+
+    </section>
+
+</div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
